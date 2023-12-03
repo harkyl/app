@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(https://enlight.nyc/img/color.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.quote{
+    height: 200px;
+    width: 600px;
+    background-color: #212121;
+    padding: 10px 10px;
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    place-items: center;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.quote p{
+    font-family: Anton;
+    letter-spacing: 2px;
+}
+
+.quote button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    background-color: #BA4A00;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.quote button:hover{
+    background-color: #fff;
+    color: #BA4A00;
+}
+
+.title{
+    text-align: center;
+    padding: 30px;
+}
+.main{
+    display: block;
+    margin: 0 auto;
+}
